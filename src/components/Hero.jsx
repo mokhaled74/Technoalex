@@ -1,4 +1,4 @@
-import HeroVideo from "@/assets/images/Techno Alex Landing Page Video-1.mp4";
+import HeroVideo from "@/assets/images/Techno Alex Landing Page Video-1_compressed.mp4";
 import HeroArrow from "@/assets/images/Subtract.png";
 
 export default function Hero() {
