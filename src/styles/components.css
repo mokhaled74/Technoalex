@@ -836,7 +836,7 @@
   }
   .navbar__close-bar:first-child { transform: rotate(45deg); }
   .navbar__close-bar:last-child { transform: rotate(-45deg); }
-  .hero { min-height: auto; padding: calc(var(--header-height) + var(--space-12)) var(--space-4) var(--space-16); }
+  .hero { min-height: 70vh; padding: calc(var(--header-height) + var(--space-4)) var(--space-4) var(--space-6); }
   .hero__title, .hero__eyebrow { font-size: var(--font-size-3xl); }
   .section__title { font-size: var(--font-size-2xl); }
   h2 { font-size: var(--font-size-2xl); }
@@ -846,6 +846,7 @@
   .projects__title { font-size: var(--font-size-3xl); }
   .about__copy { margin-top: calc(-1 * var(--space-8)); }
   .latest { padding-top: 0; }
+  .latest--padded { padding-top: var(--space-20); }
   .vision .section__title { font-size: var(--font-size-xl); }
   .about__copy .section__title { font-size: var(--font-size-3xl); }
   .footer { padding-top: var(--space-12); }

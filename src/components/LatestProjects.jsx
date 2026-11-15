@@ -11,9 +11,9 @@ const projects = [
   { name: "The Octagon Ministry Of Defense Complex", img: Img4, href: "/projects/the-octagon-ministry-of-defense-complex" },
 ];
 
-export default function LatestProjects() {
+export default function LatestProjects({ padded = false }) {
   return (
-    <section className="latest" id="projects-list" aria-label="Our latest projects">
+    <section className={`latest${padded ? " latest--padded" : ""}`} id="projects-list" aria-label="Our latest projects">
       <div className="container">
         <div className="latest__head">
           <h2 className="section__title">OUR LATEST PROJECTS</h2>

@@ -22,7 +22,7 @@ export default function Contact() {
         <VisionStats stats={contactStats} intro="Our Goal Is Beyond Delivering Projects, We Aim To Create Sustainable Value For Our Clients, Employees, And Community. By Executing National Projects With Precision, Innovation, And Trust, We Contribute To Egypt's Development Journey And Build A Lasting Impact For Future Generations." />
         <ContactInfo />
         <WhatWeOffer />
-        <LatestProjects />
+        <LatestProjects padded />
       </main>
       <Footer />
     </>
